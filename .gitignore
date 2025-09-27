@@ -1,3 +1,4 @@
+cat > .gitignore << 'EOF'
 # Dependencies
 node_modules/
 npm-debug.log*
@@ -23,18 +24,14 @@ yarn-error.log*
 
 # OS generated files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
 # Logs
 logs
 *.log
 
-# Firebase (opcional - solo si tienes archivos sensibles)
+# Firebase sensitive files
+serviceAccountkey.json
 .firebase/
 firebase-debug.log
 
@@ -44,6 +41,5 @@ yarn.lock
 
 # Temporary files
 *.tmp
-*.tempserviceAccountkey.json
-
-serviceAccountkey.json
+*.temp
+EOF
