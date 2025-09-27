@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Aud\u00edfonos Bluetooth",
+    "description": "Bluetooth 5.0, cancelaci\u00f3n de ruido.",
+    "price": 79.99,
+    "image": "https://via.placeholder.com/400x300?text=Audifonos",
+    "category": "electronics"
+  },
+  {
+    "title": "Camiseta deportiva",
+    "description": "Material transpirable, talla S-XL.",
+    "price": 19.99,
+    "image": "https://via.placeholder.com/400x300?text=Camiseta",
+    "category": "clothing"
+  },
+  {
+    "title": "Set de sartenes",
+    "description": "Antiadherente, 3 piezas.",
+    "price": 49.99,
+    "image": "https://via.placeholder.com/400x300?text=Sartenes",
+    "category": "home"
+  }
+]
